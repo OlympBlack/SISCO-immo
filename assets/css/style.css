@@ -5,7 +5,7 @@
 /* Carousel hero */
 #hero-carousel {
 position: relative;
-background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/FB_IMG_1740994351824.jpg') center/cover no-repeat;
+background: url('../img/immobilier-digital-1-800x534.jpg') center/cover no-repeat;
 min-height: 100vh;
 display: flex;
 align-items: center;
