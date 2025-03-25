@@ -118,3 +118,8 @@ border-radius: 50%;
 .new-cars .owl-theme .owl-dots .owl-dot.active span,.new-cars .owl-theme .owl-dots .owl-dot:hover span {background: #6a7781;}
 .new-cars .owl-theme .owl-nav.disabled+.owl-dots {margin-top: 62px;}
 /*.owl-dots */
+
+.navbar img{
+    height: 55px;
+    width: 100%;
+}
