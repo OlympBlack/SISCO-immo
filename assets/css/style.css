@@ -1,0 +1,120 @@
+.color {
+    background: #0f0f34;
+}
+
+/* Carousel hero */
+#hero-carousel {
+position: relative;
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/FB_IMG_1740994351824.jpg') center/cover no-repeat;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Texte dans le carousel */
+.welcome-hero-txt {
+text-align: center;
+padding: 100px 0;
+}
+
+.welcome-hero-txt h2 {
+font-size: 42px;
+color: #fff;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.welcome-hero-txt p {
+font-size: 18px;
+color: #fff;
+font-weight: 500;
+max-width: 735px;
+margin: 0 auto;
+}
+
+/* Bouton */
+.welcome-btn {
+display: inline-block;
+width: 230px;
+height: 60px;
+/*background: #4e4ffa;
+color: #fff;*/
+border-radius: 3px;
+margin-top: 30px;
+transition: .3s linear;
+font-weight: bold;
+}
+
+.welcome-btn:hover {
+background: #0102fa;
+color: white;
+}
+
+/* Contrôles du carousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+filter: invert(1);
+}
+
+/* section-header */
+.section-header{
+position: relative;
+text-align: center;
+}
+.section-header h2{
+position: relative;
+font-size: 36px;
+font-weight: 500;
+padding-bottom: 35px;
+}
+.section-header h2:before {
+position: absolute;
+content: "";
+width: 80px;
+height: 2px;
+bottom: 0;
+left: 50%;
+margin-left: -42px;
+background: #4e4ffa;
+}
+.section-header p{color: #444a57;text-transform: capitalize;margin-bottom:10px;}
+.section-header h2 span,.section-header p span{text-transform: lowercase;}
+
+/* section-header */
+
+/*-------------------------------------
+6. New-cars
+--------------------------------------*/
+.new-cars{
+background: #f8f9fb;
+padding:112px 0 120px;
+}
+.new-cars-content{padding-top:96px;}
+/*.new-cars-txt*/
+.new-cars-txt {margin-left: 29px;margin-bottom: 30px;}
+.new-cars-txt h2 a {
+font-size:  30px;
+font-weight:  500;
+margin-bottom: 26px;
+}
+.new-cars-txt h2 a span {text-transform:  uppercase;}
+.new-cars-para2 {margin-top: 30px;}
+.welcome-btn.new-cars-btn {
+width: 176px;
+margin-top: 32px;
+}
+/*.new-cars-txt*/
+
+/*.owl-dots */
+.new-cars .owl-theme .owl-dots .owl-dot span {
+width: 8px;
+height: 8px;
+margin: 0px 4px;
+background: transparent;
+border: 1px solid #6a7781;
+border-radius: 50%;
+}
+.new-cars .owl-theme .owl-dots .owl-dot.active span,.new-cars .owl-theme .owl-dots .owl-dot:hover span {background: #6a7781;}
+.new-cars .owl-theme .owl-nav.disabled+.owl-dots {margin-top: 62px;}
+/*.owl-dots */

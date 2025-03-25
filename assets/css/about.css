@@ -1,0 +1,65 @@
+/* Section pour la confiance */
+#trust-us {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.section-header {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.trust-us-text {
+    text-align: left;
+}
+
+.trust-us-text h3 {
+    font-size: 28px;
+    font-weight: 600;
+    /*color: #4e4ffa;*/
+    margin-bottom: 20px;
+}
+
+.trust-us-text p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.trust-us-image img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+}
+
+.testimonial-section {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item {
+    margin-bottom: 30px;
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+}
+
+.testimonial-item footer {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    text-align: right;
+}
