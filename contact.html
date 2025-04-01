@@ -89,18 +89,18 @@
                 <!-- Modal d'inscription -->
     
                 <h2 class="mb-4">Envoyez-nous un message</h2>
-                <form>
+                <form action="https://formspree.io/f/mwplngwo" method="post"> 
                     <div class="mb-3">
                         <label for="nom" class="form-label">Nom</label>
-                        <input type="text" class="form-control" id="nom" required placeholder="Entres votre nom">
+                        <input type="text" class="form-control" id="nom" required placeholder="Entres votre nom" name="nom">
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" required placeholder="Entrez votre mail">
+                        <input type="email" class="form-control" id="email" required placeholder="Entrez votre mail" name="email">
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="5" required placeholder="Saisissez votre message ici"></textarea>
+                        <textarea class="form-control" id="message" rows="5" required placeholder="Saisissez votre message ici" name="message"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Envoyer</button>
                 </form>
